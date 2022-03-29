@@ -4,7 +4,7 @@ add wave -noupdate -expand -group OPERANDOS -radix unsigned /mul_4bits_TB/a
 add wave -noupdate -expand -group OPERANDOS -radix unsigned /mul_4bits_TB/b
 add wave -noupdate -expand -group RESULTADO -color {Violet Red} -radix unsigned /mul_4bits_TB/p
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {66 ps} 0}
+WaveRestoreCursors {{Cursor 1} {100 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100
